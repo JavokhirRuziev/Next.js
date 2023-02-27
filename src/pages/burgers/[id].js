@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles/burgers.module.css'
 import Image from 'next/image'
-import photo from '../../../public/fatburger.jpg'
+import photo from '../../../public/images/fish.jpg'
 
 export const getStaticPaths = async ()=>{
   const res = await fetch('http://localhost:5000/items')
@@ -33,7 +33,6 @@ export const getStaticProps = async (context)=>{
 }
 
 function Details({burger}) {
-  console.log(burger);
   return (
     <div className={styles.singleBurger}>
     <h1>{burger.name}</h1>

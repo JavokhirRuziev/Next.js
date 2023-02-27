@@ -9,19 +9,19 @@ function Headers() {
       <SiBurgerking/>
       <nav>
         <Link href='/'>
-        Home
+        home
         </Link>
-        <Link href='/About'>
-        About us
+        <Link href='/about'>
+        about us
         </Link>
-        <Link href='/Reviews'>
-        Reviews
+        <Link href='/reviews'>
+        reviews
         </Link>
         <Link href='/burgers/'>
-        Burgers
+        burgers
         </Link>
-        <Link href='/Burgers/Comments'>
-          Comments
+        <Link href='/burgers/comments'>
+          comments
         </Link>
       </nav>
     </header>

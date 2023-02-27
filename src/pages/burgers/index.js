@@ -2,10 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import styles from '../../styles/burgers.module.css'
-import photo from '../../../public/fatburger.jpg'
 import img from '/images/double.jpg'
 
-function Burgers({burgers}) {
+function burgers({burgers}) {
   console.log(burgers);
   return (
     <div>
@@ -47,4 +46,4 @@ export const getStaticProps = async ()=>{
 
 }
 
-export default Burgers
+export default burgers

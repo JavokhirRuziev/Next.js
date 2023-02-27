@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 
-function Reviews({Reviews}) {
+function reviews({Reviews}) {
 
   return (
     <div>
@@ -39,4 +39,4 @@ export async function getServerSideProps(){
   }
 }
 
-export default Reviews
+export default reviews

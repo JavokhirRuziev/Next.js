@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <h1 className={`${styles.title} font-effect-fire-animation`}>Home</h1>
       <div className={styles.mainImage}>
-        <Image src='/fatburger.png' width={400} height={300} alt='Fat-Butger'/>
+        <Image src='/images/fatburger.jpg' width={400} height={300} alt='Fat-Burger'/>
       </div>
       <p className={styles.text}>What is the perfect burger? Fresh lettuce, soft buns, juicy meat. You can argue about other components of the filling, because this is a matter of taste.</p>
         <p className={styles.text}>There are a couple of other factors that affect appetite: prices, quality of service, the right atmosphere of the establishment.</p>
